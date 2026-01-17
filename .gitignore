@@ -1,0 +1,11 @@
+# Ignore sub-project repos
+querycraft-frontend/
+querycraft-backend/
+
+# Ignore experimental LLM module
+querycraft-llm/
+
+# OS / editor junk
+.DS_Store
+*.swp
+
