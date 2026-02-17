@@ -1,0 +1,8 @@
+services:
+  backend:
+    build: ./querycraft-backend
+    container_name: querycraft-backend
+    network_mode: "host"
+    restart: unless-stopped
+    env_file:
+      - ./querycraft-backend/.env
